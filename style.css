@@ -6,6 +6,10 @@ body{
         background: #fcfcfc;
 
 }
+a{
+    text-decoration: none;
+    color: white;
+}
 nav{
     display: flex;
     width: 70%;
@@ -22,6 +26,10 @@ nav h1{
 .diviusthegreat{
     display: flex;
     margin-left: 10%;
+}
+.diviusthegoat h1{
+    margin-left: 1%;
+    margin-right: 1%;
 }
 
 .diviusthegoat{
@@ -127,6 +135,27 @@ section{
     display: flex;
     justify-content: space-around;
     text-decoration: underline solid white;
+    flex-wrap: wrap;
+  }
+  .con2 input{
+      background-color: #242565;
+      border: 0 solid black;
+      text-decoration: none;
+      color: white;
+  }
+  ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    text-decoration: none;
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: white;
+    text-decoration: none;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: white;
+    text-decoration: none;
   }
   .con3{
     color: white;
@@ -404,20 +433,24 @@ height: 100%;
     background-color: #ffffff;
     display: flex;
 }
-.maain p{
-
+.maain input{
+    border: 0 solid black;
+    width: 30%;
     margin: 10px;
 }
-.rightt{
+::-ms-input-placeholder .main input{
+    color: black !important;
+}
+.rightt button{
     width: 150px;
     height: 45px    ;
     background-color: #F5167E;
     border-radius: 50px;
-    margin-top: 7px;
     margin-left: 10px;
+    border: 0 solid black;
 }
-.rightt p{
-    margin-top: -10px;
+.rightt button{
+    margin-top: 7.5px;
 }
 hr{
     width: 80%;
@@ -473,7 +506,7 @@ background: #ccc;
             }
 
       }
-
+    
       @media only screen and (max-width: 550px){
         .r1{
             display: block;
@@ -543,8 +576,8 @@ background: #ccc;
         }
         .sec4 h2{
             
-    font-size: 10px;
-margin-bottom: 70px;
+        font-size: 10px;
+        margin-bottom: 70px;
         }
         .sb {
             width: 40%;
@@ -552,10 +585,20 @@ margin-bottom: 70px;
         .fb {
             width: 40%;
         }
-      }
       .crds{
         display: block;
       }
+      .diving{
+        display: block;
+        margin-left: 10%;
+        margin-top: -15%;
+      }
+      .sb{
+          margin-left: 5%;
+          color: white !important;
+      }
+    
+    }
       @media only screen and (min-width: 1200px){
         .r1{
         justify-content: center;
